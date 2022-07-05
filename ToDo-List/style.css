@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+      margin: auto;
+      text-align: center;
+  }
+  
+  .content-header {
+      padding: 1rem 3rem;
+      background-color: rgb(255, 68, 0);
+  }
+
+  .content-header h1 {
+      color: #fff;
+      text-align: center;
+      padding: .5rem;
+  }
+
+  .content-header #inputField {
+      width: 80%;
+      padding: 1rem;
+      font-size: 15px;
+      color: grey;
+      border: none;
+      outline: none;
+  }
+
+  .content-header #btn {
+    width: 20%;
+    padding: 1rem;
+    font-size: 15px;
+    color: grey;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#btn:hover {
+    background: rgba(255, 255, 255, 0.637);
+}
+  
+.toDoContainer {
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.item-styling {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+.item-styling:nth-child(even) {
+    background: rgba(219, 214, 214, 0.952); 
+}
+
+.item-styling:nth-child(odd) {
+    background: #f5f1f1;
+}
+
+.item-styling:hover {
+    background: rgb(226, 225, 225);
+}
+
+.item-styling:focus {
+    background-color:rgb(112, 111, 111);
+    text-decoration: line-through;
+    color: #fff;
+}
+
+div i:hover {
+    background-color: rgb(255, 68, 0);
+    padding: .1rem .3rem;
+    color: #fff;
+}
+
+p {
+    padding: .1rem .3rem;
+}
